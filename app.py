@@ -16,7 +16,7 @@ CORS(app)
 @app.route('/')
 def get_greeting():
     excited = os.environ['EXCITED']
-    greeting = "Hello" 
+    greeting = "Hello it sdservices made by be Satyadeep ...... " 
     if excited == 'true': greeting = greeting + "!!!!!"
     return greeting
 
